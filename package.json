@@ -1,0 +1,20 @@
+{
+  "name": "badgr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "badges:info": "node scripts/badges-info.js",
+    "badges:issue": "node scripts/badges-issue.js",
+    "badges:auth": "node scripts/badges-auth.js",
+    "init": "touch badges.json && touch credentials.json && touch emails.json && touch .env && cat template.env >> .env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "qs": "^6.9.6"
+  }
+}

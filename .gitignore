@@ -1,0 +1,7 @@
+node_modules
+
+# files with private data
+badges.json
+credentials.json
+emails.json
+.env
